@@ -1,0 +1,1043 @@
+
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900");
+@import url("https://cdn.linearicons.com/free/1.0.0/icon-font.min.css");
+body{
+  background:  dark grey;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+  background-color: rgba(210, 184, 192, 0.687);
+  position: fixed;
+}
+.navbar-brand{
+  font-family: 'Dancing Script', cursive;
+  
+}
+
+img{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* .weather-card {
+  margin: 60px auto;
+  height: 540px;
+
+  background: #fff;
+  box-shadow: 0 1px 38px rgba(0, 0, 0, 0.15), 0 5px 12px rgba(0, 0, 0, 0.25);
+  overflow: visible;
+}
+.weather-card .top {
+  position: relative;
+  height: 400px;
+
+  overflow: visible;
+  background: url("https://the-stationery-company.myshopify.com/collections/office-supplies") no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.weather-card .top .wrapper {
+  padding: 30px;
+  position: relative;
+  z-index: 1;
+}
+.weather-card .top .wrapper .mynav {
+  height: 20px;
+}
+.weather-card .top .wrapper .mynav .lnr {
+  color: #fff;
+  font-size: 20px;
+}
+.weather-card .top .wrapper .mynav .lnr-chevron-left {
+  display: inline-block;
+    float:left;
+}
+.weather-card .top .wrapper .mynav .lnr-cog {
+  display: inline-block;
+  float: right;
+}
+.weather-card .top .wrapper .heading {
+  margin-top: 20px;
+  font-size: 35px;
+  font-weight: 400;
+  color: #fff;
+}
+.weather-card .top .wrapper .location {
+  margin-top: 20px;
+  font-size: 21px;
+  font-weight: 400;
+  color: #fff;
+}
+.weather-card .top .wrapper .temp {
+  margin-top: 20px;
+}
+.weather-card .top .wrapper .temp a {
+  text-decoration: none;
+  color: #fff;
+}
+.weather-card .top .wrapper .temp a .temp-type {
+  font-size: 85px;
+}
+.weather-card .top .wrapper .temp .temp-value {
+  display: inline-block;
+  font-size: 85px;
+  font-weight: 600;
+  color: #fff;
+}
+.weather-card .top .wrapper .temp .deg {
+  display: inline-block;
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
+  vertical-align: top;
+  margin-top: 20px;
+}
+.weather-card .top:after {
+  
+  height: 100%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.weather-card .bottom {
+  padding: 0 30px;
+  background: #fff;
+}
+.weather-card .bottom .wrapper .forecast {
+  overflow: hidden;
+  margin: 0;
+  font-size: 0;
+  padding: 0;
+  padding-top: 20px;
+  max-height: 155px;
+}
+.weather-card .bottom .wrapper .forecast a {
+  text-decoration: none;
+  color: #000;
+}
+.weather-card .bottom .wrapper .forecast .go-up {
+  text-align: center;
+  display: block;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.weather-card .bottom .wrapper .forecast li {
+  display: block;
+  font-size: 25px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.25);
+  line-height: 1em;
+  margin-bottom: 30px;
+}
+.weather-card .bottom .wrapper .forecast li .date {
+  display: inline-block;
+}
+.weather-card .bottom .wrapper .forecast li .condition {
+  display: inline-block;
+  vertical-align: middle;
+  float: right;
+  font-size: 25px;
+  text-align: center;
+  justify-content: center;
+}
+.weather-card .bottom .wrapper .forecast li .condition .temp {
+  display: inline-block;
+  vertical-align: top;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 2px;
+}
+.weather-card .bottom .wrapper .forecast li .condition .temp .deg {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  margin-left: 3px;
+  vertical-align: top;
+}
+.weather-card .bottom .wrapper .forecast li .condition .temp .temp-type {
+  font-size: 20px;
+}
+.weather-card .bottom .wrapper .forecast li.active {
+  color: rgba(0, 0, 0, 0.8);
+}
+.weather-card.rain .top {
+  background: url("https://www.thestationerycompany.pk/cdn/shop/files/school2_1024x1024_crop_center.png?v=1626439528");
+  background-position: center center;
+  background-repeat: no-repeat;
+  
+  
+}
+.weather-card.set .top {
+  background: url("https://www.thestationerycompany.pk/cdn/shop/files/tsc-collection_-website_1_1024x1024_crop_center.png?v=1665214187");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.weather-card.set1 .top {
+  background: url("https://www.thestationerycompany.pk/cdn/shop/products/WhatsAppImage2022-08-16at1.17.04PM_1_360x.jpg?v=1660638968");
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all.3sec;
+
+}
+.text1,.text2,.text3{
+    text-align: center;
+    justify-content: center;
+    padding: 60px;
+}
+.link1,.link2,.link3{
+    text-align: center;
+    justify-content: center;
+    padding: 60px;
+    margin-top: 10px;
+    justify-content: center;
+} */
+
+.inline1
+{
+  display: inline-block;
+}
+
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  justify-content: center;
+  display: flex;
+
+   
+}
+li{
+  list-style: none;
+}
+
+  .container{
+    height: 300px;
+    width: 500px;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    grid-template-columns: 120px 120px 120px;
+    grid-template-rows: 120px 120px 120px;
+    gap: 10px;
+    flex-direction: row;
+
+  }
+
+.box{
+  
+  height: 180px;
+  width: 500px;
+  border: 10px solid white;
+  border-radius: 100%;
+  display: flex;
+  
+}
+
+
+#circle1{
+  background-image:url("https://stationers.pk/cdn/shop/files/71b4WP3DSfL._AC_SX425.jpg?v=1684819723&width=240");
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 600%;
+}
+
+
+
+#circle2{
+background-image:url("https://stationers.pk/cdn/shop/files/qdnqoahfo8dkwxdcxfbkpnql4xeepxwdxyaopwm1mygbsvn18ah78lnzpoaurpwy.jpg?v=1684744642&width=480");
+border-radius: 100%;
+background-repeat:no-repeat;
+background-size: cover;
+height: 200px;
+width: 600%;
+
+
+} 
+
+#circle3{
+  background-image: url("https://stationers.pk/cdn/shop/files/MontMarteAcrylicPaintSetMetallicThestationerycompanypk_99f56851-01ec-480e-8a32-4c4ebb70ac96.jpg?v=1684748112&width=480");
+  background-repeat:no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+  height: 200px;
+  width: 600%;
+  background-repeat: no-repeat;
+
+}
+
+#circle4{
+  background-image:url("https://stationers.pk/cdn/shop/files/50ML-Oil-Painting-Single-Aluminum-Tube-Loaded-Students-Art-Creation-Drawing-Special-Multi-color-Odor-Free.jpg?v=1684748223&width=480");
+  background-size: cover;
+  border-radius: 100%;
+  height: 200px;
+  width: 600%;
+  background-repeat: no-repeat;
+}
+#circle5{
+  background-image:url("https://stationers.pk/cdn/shop/files/Watercolor-Paintings-Tips.jpg?v=1684748379&width=480");
+  border-radius: 100%;
+  height: 200px;
+  width: 500%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+#circle6{
+  background-image: url("https://stationers.pk/cdn/shop/files/6921734990990-1.jpg?v=1685108259&width=480");
+  border-radius: 100%;
+  background-size: cover;
+  height: 200px;
+  width: 600%;
+  background-repeat: no-repeat;
+}
+#circle7{
+  background-image:url("https://stationers.pk/cdn/shop/files/Mont_Marte_Hard_Sketchbook.jpg?v=1684739322&width=480");
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 600%;
+background-size: cover;
+
+}
+#circle8{
+  background-image: url("https://stationers.pk/cdn/shop/files/ballpoint_pen.png?v=1683734270&width=480");
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 600%;
+  background-size: cover;
+
+}
+img{
+  max-width: 100%;
+  vertical-align: top;
+
+
+}
+.heading{
+  color: #000;
+  padding-bottom: 10%;
+}
+.card text{
+     font-style: oblique;
+     font-weight: bolder;
+}
+#yz{
+  height: 50px;
+  width: 150px;
+  
+  color: white;
+  border: 2px solid;
+
+}
+#yz:hover{
+      background-color: black;
+}
+#za{
+  height: 50px;
+  width: 150px;
+  
+  color: white;
+  border: 2px solid;
+
+}
+#za:hover{
+      background-color: black;
+}
+#ay{
+  height: 50px;
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+  color: white;
+  border: 2px solid;
+
+}
+#ay:hover{
+      background-color: black;
+}
+.pq{
+  text-align: center;
+  
+}
+
+
+
+#pic1{
+  background-image: url("https://stationers.pk/cdn/shop/products/MPN0114.webp?v=1684846010&width=1000");
+  height: 200px;
+  width: 100%;
+  background-size: 100% 100%;
+}
+#pic1:hover{
+  background-image:url("https://stationers.pk/cdn/shop/products/91HdV3OelvL._AC_SL1500.jpg?v=1684846010&width=1100");
+ height: 200px;
+ width: 100%;
+}
+  #pic2{
+    background-image: url("https://stationers.pk/cdn/shop/files/25Pcs-Artist-Paint-Brushes-Watercolour-Acrylic-Oil-Painting-Brush-Splendid-Co-940.jpg?v=1686642982&width=600");
+    height: 250px;
+    width: 100;
+    background-size: 100% 100%;
+  }
+  #pic2:hover{
+    background-image: url("https://stationers.pk/cdn/shop/files/25Pcs-Artist-Paint-Brushes-Watercolour-Acrylic-Oil-Painting-Brush-Splendid-Co-706.jpg?v=1686642982&width=700");
+  }
+  #pic3{
+    background-image:url("https://stationers.pk/cdn/shop/files/71NqdH9uSnL._AC_SL1000.jpg?v=1684228574&width=1000");
+    height: 300px;
+    width: 100%;
+    background-size: 100% 100%;
+  }
+  #pic3:hover{
+    background-image:url("https://stationers.pk/cdn/shop/files/MontMarteDetailBrush.jpg?v=1684228573&width=900")
+    }
+  #pic4{
+    background-image: url("https://stationers.pk/cdn/shop/products/Sakura-Gelly-Roll-Metallic-Gel-Pen-Pack-Of-12.webp?v=1683632843&width=1000");
+    height: 300px;
+    width: 100%;
+    background-size: 100% 100%;
+  
+  }
+  #pic4:hover{
+    background-image: url("https://stationers.pk/cdn/shop/products/116437_60_PX_9979778896_78711.webp?v=1693559699&width=900");
+  }
+  #pic5{
+    background-image:url("https://stationers.pk/cdn/shop/products/116412_30_PA_9979809090_61160.jpg?v=1693559699&width=900");
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  
+  }
+  #pic5:hover{
+    background-image: url("https://stationers.pk/cdn/shop/products/116425_10_PM1.webp?v=1693559698&width=900");
+
+  }
+  #pic6{
+    background-image:url("https://stationers.pk/cdn/shop/products/41Dr2beIGqL._SL1000.jpg?v=1683788116&width=600");
+    height: 280px;
+    width: 100%;
+    background-size: cover;
+    
+  }
+  #pic6:hover{
+    background-image: url("https://stationers.pk/cdn/shop/products/MontMarteSkinPencilSet.jpg?v=1683788104&width=1200");
+  }
+  /* #png{
+    height: 300px;
+    width: 500px;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    grid-template-columns: 120px 120px 120px;
+    grid-template-rows: 120px 120px 120px;
+    gap: 10px;
+    flex-direction: row;
+
+  }
+
+#rectangle{
+  
+  height: 180px;
+  width: 200px;
+  border: 10px solid white;
+  display: flex;
+  
+}
+
+
+#rectangle{
+  background-image:url("https://stationers.pk/cdn/shop/files/download_6.jpg?v=1684486277&width=280");
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 600%;
+} */
+.wrapper{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.parent{
+  /* width: 37%; */
+  margin: 20px;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.5);
+  border-radius: 20px;
+  
+}
+  
+
+
+.child{
+   height: 100%;
+  width: 100%;
+background-size: cover;
+transition: all 1.1s;
+}
+
+
+.bg-one{
+  background-image:url("https://stationers.pk/cdn/shop/files/pexels-pavel-danilyuk-8381905.jpg?v=1681460941&width=800");
+
+}
+.bg-two{
+  background-image: url("");
+
+}
+.bg-three{
+  background-image:url("")
+}
+  .bg-four{
+  background-image: url("https://stationers.pk/cdn/shop/articles/Glue_Art.jpg?v=1701510965&width=700")
+}
+.bg-five{
+     background-image: url("https://stationers.pk/cdn/shop/files/pexels-marko-blazevic-1053687_1.jpg?v=1681458376&width=800");
+}
+.bg-six{
+  background-image: url("https://stationers.pk/cdn/shop/files/marcus-urbenz-Ky24fCpz1IE-unsplash.jpg?v=1681458632&width=800");
+}
+.parent:hover.child{
+  transform: scale(1.2);
+}
+
+#circle2{
+background-image:url("https://stationers.pk/cdn/shop/files/qdnqoahfo8dkwxdcxfbkpnql4xeepxwdxyaopwm1mygbsvn18ah78lnzpoaurpwy.jpg?v=1684744642&width=480");
+border-radius: 100%;
+background-repeat:no-repeat;
+background-size: cover;
+height: 200px;
+width: 600%;
+
+
+} 
+
+#circle3{
+  background-image: url("https://stationers.pk/cdn/shop/files/MontMarteAcrylicPaintSetMetallicThestationerycompanypk_99f56851-01ec-480e-8a32-4c4ebb70ac96.jpg?v=1684748112&width=480");
+  background-repeat:no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+  height: 200px;
+  width: 600%;
+  background-repeat: no-repeat;
+
+}
+
+#circle4{
+  background-image:url("https://stationers.pk/cdn/shop/files/50ML-Oil-Painting-Single-Aluminum-Tube-Loaded-Students-Art-Creation-Drawing-Special-Multi-color-Odor-Free.jpg?v=1684748223&width=480");
+  background-size: cover;
+  border-radius: 100%;
+  height: 200px;
+  width: 600%;
+  background-repeat: no-repeat;
+}
+#circle5{
+  background-image:url("https://stationers.pk/cdn/shop/files/Watercolor-Paintings-Tips.jpg?v=1684748379&width=480");
+  border-radius: 100%;
+  height: 200px;
+  width: 500%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+#circle6{
+  background-image: url("https://stationers.pk/cdn/shop/files/6921734990990-1.jpg?v=1685108259&width=480");
+  border-radius: 100%;
+  background-size: cover;
+  height: 200px;
+  width: 600%;
+  background-repeat: no-repeat;
+}
+#circle7{
+  background-image:url("https://stationers.pk/cdn/shop/files/Mont_Marte_Hard_Sketchbook.jpg?v=1684739322&width=480");
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 600%;
+background-size: cover;
+
+}
+#circle8{
+  background-image: url("https://stationers.pk/cdn/shop/files/ballpoint_pen.png?v=1683734270&width=480");
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 600%;
+  background-size: cover;
+
+}
+.ai{
+  text-align: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+#png{
+  height: 300px;
+  width: 500px;
+  border: none;
+  display: flex;
+  justify-content: space-evenly;
+  grid-template-columns: 120px 120px 120px;
+  grid-template-rows: 120px 120px 120px;
+  gap: 10px;
+  flex-direction: row;
+
+}
+
+#box{
+
+height: 180px;
+width: 500%;
+border: 10px solid white;
+display: flex;
+
+}
+
+
+#box1{
+background-image:url("https://stationers.pk/cdn/shop/files/piano_250x_65d6c750-b0a6-46ab-ad03-4dda917c476a.png?v=1673503320");
+background-repeat: no-repeat;
+background-size: cover;
+height: 200px;
+width: 600%;
+}
+
+
+
+#box2{
+background-image:url("data:image/png;base64,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");
+background-repeat:no-repeat;
+background-size: cover;
+height: 200px;
+width: 600%;
+
+
+} 
+
+#box3{
+background-image: url("https://stationers.pk/cdn/shop/files/MontMarteAcrylicPaintSetMetallicThestationerycompanypk_99f56851-01ec-480e-8a32-4c4ebb70ac96.jpg?v=1684748112&width=480");
+background-repeat:no-repeat;
+background-size: cover;
+height: 200px;
+width: 600%;
+background-repeat: no-repeat;
+
+}
+
+#box4{
+background-image:url("https://stationers.pk/cdn/shop/files/50ML-Oil-Painting-Single-Aluminum-Tube-Loaded-Students-Art-Creation-Drawing-Special-Multi-color-Odor-Free.jpg?v=1684748223&width=480");
+background-size: cover;
+height: 200px;
+width: 600%;
+background-repeat: no-repeat;
+}
+#box5{
+background-image:url("https://stationers.pk/cdn/shop/files/Watercolor-Paintings-Tips.jpg?v=1684748379&width=480");
+height: 200px;
+width: 500%;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+#cbox6{
+background-image: url("https://stationers.pk/cdn/shop/files/6921734990990-1.jpg?v=1685108259&width=480");
+border-radius: 100%;
+background-size: cover;
+height: 200px;
+width: 600%;
+background-repeat: no-repeat;
+}
+#box7{
+background-image:url("https://stationers.pk/cdn/shop/files/Mont_Marte_Hard_Sketchbook.jpg?v=1684739322&width=480");
+border-radius: 100%;
+background-repeat: no-repeat;
+height: 200px;
+width: 600%;
+background-size: cover;
+
+}
+#box8{
+background-image: url("https://stationers.pk/cdn/shop/files/ballpoint_pen.png?v=1683734270&width=480");
+border-radius: 100%;
+background-repeat: no-repeat;
+height: 200px;
+width: 600%;
+background-size: cover;
+
+}
+#pw{
+  color: aquamarine;
+}
+#box11{
+  border-radius: 22px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Inter:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+}
+.card {
+  position: relative;
+  width: 375px;
+  background: #FFF;
+  box-shadow: 0px 15px 30px 0px rgba(25, 27, 42, 0.05);
+}
+
+.card__love-btn {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.card__love-btn svg {
+  width: 20px;
+  fill: #FF6A8E;
+}
+
+.card__img {
+  width: 100%;
+  height: 310px;
+  object-fit: cover;
+}
+
+.card__body {
+  padding: 32px;
+}
+
+.card__title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.card__text {
+  padding-top: 16px;
+  padding-bottom: 24px;
+  color: #5A5A5A;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 170%;
+}
+
+.card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card__footer .price {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.btn {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  padding: 7px 24px;
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 170%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background: #161616;
+  cursor: pointer;
+}
+
+.btn:focus, .card__love-btn:focus {
+  outline: 2px dashed #4C6FFF;
+  outline-offset: 5px;
+}
+.main{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.btn svg {
+  width: 14px;
+  fill: #fff;
+}
+@media only screen and (max-width: 414px) {
+  #mainid, #mainid2{
+    flex-direction: column;
+  }
+    
+}
+@media only screen and (max-width: 430px) {
+  #mainid, #mainid2{
+    flex-direction: column;
+  }
+    
+}
+@media only screen and (max-width: 720px) {
+  #mainid, #mainid2{
+    flex-direction: column;
+  }
+    
+}
+@media only screen and (max-width: 414px) {
+  #maincr, #mainicr2{
+    flex-direction: column;
+  }
+    
+}
+@media only screen and (max-width: 430px) {
+  #maincr, #maincr2{
+    flex-direction: column;
+  }
+    
+}
+@media only screen and (max-width: 720px) {
+  #maincr, #mainicr2{
+    flex-direction: column;
+  }
+    
+}
+.marquee {
+  font-size: 2vw;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  height: 2.5vw;
+  overflow: hidden;
+  background-color: #000;
+  position: relative;
+}
+.marquee div {
+  display: block;
+  width: 200%;
+  position: absolute; 
+  overflow: hidden;
+  animation: marquee 12s linear infinite;
+}
+.marquee span {
+  float: left;
+  width: 50%;
+}
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+/* footers css */
+.footer {
+  background-color: black;
+  width: 100%;
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+/* footer left*/
+
+.footer .footer-left {
+  width: 33%;
+  padding-right: 15px;
+}
+
+.footer .about {
+  line-height: 20px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer .about span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer .icons {
+  margin-top: 25px;
+}
+
+.footer .icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+
+/* footer center*/
+
+.footer .footer-center {
+  width: 30%;
+}
+
+.footer .footer-center i {
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer .footer-center p a {
+  color: #0099ff;
+  text-decoration: none;
+}
+
+
+/* footer right*/
+
+.footer .footer-right {
+  width: 35%;
+}
+
+.footer h2 {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer h2 span {
+  color: #0099ff;
+}
+
+.footer .menu {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer .menu a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer .menu a:hover {
+  color: #0099ff;
+}
+
+.footer .name {
+  color: #0099ff;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    font-size: 14px;
+  }
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .footer .footer-center i {
+    margin-left: 0;
+  }
+}
+.containergalleryy {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 290px));
+  grid-gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+  box-shadow: 0 1px 1px #000;
+}
+.img {
+  background-position: top;
+  background-size: cover;
+  height: 200px;
+  width: 290px;
+  box-shadow: 0 2px 10px #838383;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+/* img:hover {
+  box-shadow: none;
+  transform: scale(1.1);
+} */
+.img:hover{
+  box-shadow: none;
+  transform: scale(1.1);
+}
+
+

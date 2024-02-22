@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <style>
+    *{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right bottom , rgba(0, 0, 0, 0.623) , rgba(26, 23, 25, 0.308)) , url('images/background.png');
+}
+
+.submit-button{
+  background-color: rgba(210, 184, 192, 0.687);
+  color: white;
+}
+.inforCard{
+  background-color: rgba(210, 184, 192, 0.687);
+  box-shadow:  0 0 10px black;
+
+}
+.contactList{
+  display: block;
+  list-style: none;
+  margin: 30px 20px;
+}
+.contactList li {
+  padding: 10px;
+  color: white;
+  margin-top: 10px;
+}
+.container{
+    padding-top: 4rem;
+}
+.col-md-6{
+    background-color: transparent;
+    color: black;
+    /* width: 100%;
+    height: 100%; */
+}
+
+input{
+    border-radius: 1px solid black;
+}
+
+
+
+/* for map */
+h2 {
+    font-family: 'Gotham', 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Set display preferences for description. */
+  
+  #description {
+    margin: 10px 5% 0% 5%;
+    font-family: 'Gotham', 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.45em;
+  }
+  
+  /* Set display preferences for dropdown menu. */
+  
+  #dropdown {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  select { 
+    height: 25px;
+    width: 150px;
+    font-family: 'Gotham', 'Montserrat', sans-serif;
+    text-align-last: center;
+  }
+  
+  /* Set display preferences for map. */
+  
+  #map {
+    height: 85%;
+  }
+  
+  /* Hide 'Google Maps API's Terms of Use'. */
+  
+  .gmnoprint a,
+  .gmnoprint span,
+  .gmnoprint.gm-style-cc,
+  .gm-style-cc {
+    display: none !important;
+  }
+  
+  /* Set background color of zoom buttons. */
+  
+  .gmnoprint div {
+    background: #EEEEEE !important;
+  }
+  
+  /* Make the test results fill the window. */
+  </style>
+</head>
+<body>
+  <div class="container ">
+    <div class="row m-1 g-3">
+      <div class="col-md-6 bg-white  rounded shadow p-5" style="height: max-content;">
+        <h1 class="text-center " style="color: rgb(224, 40, 147);">Get in touch</h1>
+        <p class="text-center text-secondary">Have Question Contact Us Using This Form !</p>
+        <form action="">
+          <input type="text" placeholder="Name" class="form-control">
+          <br>
+          <input type="text" placeholder="Email" class="form-control">
+          <br>
+          <input type="text" placeholder="Subject" class="form-control">
+          <br>
+          <textarea rows="4" cols="50" name="comment" form="usrform" class="form-control" placeholder="enter some thing"></textarea>
+          <br>
+          <button class="btn w-100 submit-button"  >Send Message</button>
+          <hr>
+          <center><a href="index.html" class="btn">Return To Home</a></center>
+          <br><br>
+        </form>
+      </div>
+      <!-- Sidebar with Map -->
+      <div class="col-md-6 mt-2">
+        <div class="row g-3">
+          <!-- Add your map code here -->
+          <div class="col-md-12"  >
+          <div class="inforCard rounded mb-3 p-4" style="border:0; width: 100% ; height: 310px;">
+            <ul  class="contactList">
+              <li><span><b>Email:</b> aptechgdn@aptechgdn.net</span></li>
+              <li><span><b>Phone:</b> +92 3912232334</span></li>
+              <li><span><b>Address:</b> APWA Complex, 1st Floor, Agha Khan 3 Rd, Garden East Saddar Town, Karachi, Sindh 74400</span></li>
+            </ul>
+          </div>
+          </div>
+          <div class="col-md-12">
+            <iframe class="rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.9026292694407!2d67.02166607541434!3d24.867174977924943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e6b1566c46f%3A0x65318f4eb62c7aa8!2sAptech%20Computer%20Education%20Garden%20Center!5e0!3m2!1sen!2s!4v1702891677257!5m2!1sen!2s"  style="border:0; width: 100% ; height: 350px;  box-shadow:  0 0 10px black;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
+ <script>
+    function initMap() {
+
+var markers = [];
+
+// Create a custom marker icon.
+
+var image = {
+  url: 'http://i64.tinypic.com/jpvvkh.png',
+  scaledSize: new google.maps.Size(25, 25)
+};
+
+// Create an array of locations, all coordinates are random and general ones from Google Maps.
+
+var locations = [
+  ['0', 'Santa Ana', image, 33.7455, -117.8677, 'Home'],
+  ['0', 'Santa Ana', image, 33.7455, -117.8677, 'Family'],
+  ['1', 'Fountain Valley', image, 33.7090, -117.9544, 'Friends'],
+  ['2', 'Los Angeles', image, 34.0522, -118.2437, 'Family'],
+  ['2', 'Los Angeles', image, 34.0522, -118.2437, 'Friends'],
+  ['3', 'Garden Grove', image, 33.7743, -117.9380, 'Family'],
+  ['4', 'Westminster', image, 33.7592, -117.9897, 'Friends'],
+  ['5', 'Huntington Beach', image, 33.6595, -117.9988, 'Friends'],
+  ['6', 'Irvine', image, 33.6846, -117.8265, 'Friends'],
+  ['7', 'Lake Forest', image, 33.6469, -117.6861, 'Friends'],
+  ['8', 'Dana Point', image, 33.4672, -117.6981, 'Family'],
+  ['9', 'Long Beach', image, 33.7701, -118.1937, 'Friends'],
+  ['10', 'Buena Park', image, 3.8674, -117.9981, 'Friends'],
+  ['11', 'Chino Hills', image, 33.9898, -117.7326, 'Friends'],
+  ['12', 'Bakersfield', image, 35.3733, -119.0187, 'Friends']
+];
+
+// Create a map.
+var map = new google.maps.Map(document.getElementById('map'), {
+
+  // Set up options and styles for map.
+  center: {
+    lat: 33.7175,
+    lng: -117.8311
+  },
+  zoom: 11,
+  mapTypeControl: false, // Disable Map & Satellite Views.
+  streetViewControl: false, // Disable Street View.
+  styles: [{ // Assasin's Creed IV Style by Sarah Frisk via snazzymaps.com.
+    "featureType": "all",
+    "elementType": "all",
+    "stylers": [{
+      "visibility": "on"
+    }]
+  }, {
+    "featureType": "all",
+    "elementType": "labels",
+    "stylers": [{
+      "visibility": "off"
+    }, {
+      "saturation": "-100"
+    }]
+  }, {
+    "featureType": "all",
+    "elementType": "labels.text.fill",
+    "stylers": [{
+      "saturation": 36
+    }, {
+      "color": "#000000"
+    }, {
+      "lightness": 40
+    }, {
+      "visibility": "off"
+    }]
+  }, {
+    "featureType": "all",
+    "elementType": "labels.text.stroke",
+    "stylers": [{
+      "visibility": "off"
+    }, {
+      "color": "#000000"
+    }, {
+      "lightness": 16
+    }]
+  }, {
+    "featureType": "all",
+    "elementType": "labels.icon",
+    "stylers": [{
+      "visibility": "off"
+    }]
+  }, {
+    "featureType": "administrative",
+    "elementType": "geometry.fill",
+    "stylers": [{
+      "color": "#000000"
+    }, {
+      "lightness": 20
+    }]
+  }, {
+    "featureType": "administrative",
+    "elementType": "geometry.stroke",
+    "stylers": [{
+      "color": "#000000"
+    }, {
+      "lightness": 17
+    }, {
+      "weight": 1.2
+    }]
+  }, {
+    "featureType": "landscape",
+    "elementType": "geometry",
+    "stylers": [{
+      "color": "#000000"
+    }, {
+      "lightness": 20
+    }]
+  }, {
+    "featureType": "landscape",
+    "elementType": "geometry.fill",
+    "stylers": [{
+      "color": "#4d6059"
+    }]
+  }, {
+    "featureType": "landscape",
+    "elementType": "geometry.stroke",
+    "stylers": [{
+      "color": "#4d6059"
+    }]
+  }, {
+    "featureType": "landscape.natural",
+    "elementType": "geometry.fill",
+    "stylers": [{
+      "color": "#4d6059"
+    }]
+  }, {
+    "featureType": "poi",
+    "elementType": "geometry",
+    "stylers": [{
+      "lightness": 21
+    }]
+  }, {
+    "featureType": "poi",
+    "elementType": "geometry.fill",
+    "stylers": [{
+      "color": "#4d6059"
+    }]
+  }, {
+    "featureType": "poi",
+    "elementType": "geometry.stroke",
+    "stylers": [{
+      "color": "#4d6059"
+    }]
+  }, {
+    "featureType": "road",
+    "elementType": "geometry",
+    "stylers": [{
+      "visibility": "on"
+    }, {
+      "color": "#7f8d89"
+    }]
+  }, {
+    "featureType": "road",
+    "elementType": "geometry.fill",
+    "stylers": [{
+      "color": "#7f8d89"
+    }]
+  }, {
+    "featureType": "road.highway",
+    "elementType": "geometry.fill",
+    "stylers": [{
+      "color": "#7f8d89"
+    }, {
+      "lightness": 17
+    }]
+  }, {
+    "featureType": "road.highway",
+    "elementType": "geometry.stroke",
+    "stylers": [{
+      "color": "#7f8d89"
+    }, {
+      "lightness": 29
+    }, {
+      "weight": 0.2
+    }]
+  }, {
+    "featureType": "road.arterial",
+    "elementType": "geometry",
+    "stylers": [{
+      "color": "#000000"
+    }, {
+      "lightness": 18
+    }]
+  }, {
+    "featureType": "road.arterial",
+    "elementType": "geometry.fill",
+    "stylers": [{
+      "color": "#7f8d89"
+    }]
+  }, {
+    "featureType": "road.arterial",
+    "elementType": "geometry.stroke",
+    "stylers": [{
+      "color": "#7f8d89"
+    }]
+  }, {
+    "featureType": "road.local",
+    "elementType": "geometry",
+    "stylers": [{
+      "color": "#000000"
+    }, {
+      "lightness": 16
+    }]
+  }, {
+    "featureType": "road.local",
+    "elementType": "geometry.fill",
+    "stylers": [{
+      "color": "#7f8d89"
+    }]
+  }, {
+    "featureType": "road.local",
+    "elementType": "geometry.stroke",
+    "stylers": [{
+      "color": "#7f8d89"
+    }]
+  }, {
+    "featureType": "transit",
+    "elementType": "geometry",
+    "stylers": [{
+      "color": "#000000"
+    }, {
+      "lightness": 19
+    }]
+  }, {
+    "featureType": "water",
+    "elementType": "all",
+    "stylers": [{
+      "color": "#2b3638"
+    }, {
+      "visibility": "on"
+    }]
+  }, {
+    "featureType": "water",
+    "elementType": "geometry",
+    "stylers": [{
+      "color": "#2b3638"
+    }, {
+      "lightness": 17
+    }]
+  }, {
+    "featureType": "water",
+    "elementType": "geometry.fill",
+    "stylers": [{
+      "color": "#24282b"
+    }]
+  }, {
+    "featureType": "water",
+    "elementType": "geometry.stroke",
+    "stylers": [{
+      "color": "#24282b"
+    }]
+  }, {
+    "featureType": "water",
+    "elementType": "labels",
+    "stylers": [{
+      "visibility": "off"
+    }]
+  }, {
+    "featureType": "water",
+    "elementType": "labels.text",
+    "stylers": [{
+      "visibility": "off"
+    }]
+  }, {
+    "featureType": "water",
+    "elementType": "labels.text.fill",
+    "stylers": [{
+      "visibility": "off"
+    }]
+  }, {
+    "featureType": "water",
+    "elementType": "labels.text.stroke",
+    "stylers": [{
+      "visibility": "off"
+    }]
+  }, {
+    "featureType": "water",
+    "elementType": "labels.icon",
+    "stylers": [{
+      "visibility": "off"
+    }]
+  }]
+});
+
+// Loop through length of locations.
+
+for (var i = 0; i < locations.length; i++) {
+  addMarker(locations[i]);
+}
+
+// Create marker(s).
+
+function addMarker(properties) {
+  var title = properties[1];
+  var content = properties[1];
+  var icon = properties[2];
+  var position = new google.maps.LatLng(properties[3], properties[4]);
+  var category = properties[5];
+
+  // Set up info window when marker is clicked.
+  
+  var infoWindow = new google.maps.InfoWindow({
+    content: ''
+  });
+
+  var marker = new google.maps.Marker({
+    map: map,
+    title: title,
+    icon: icon,
+    position: position,
+    category: category,
+    infowindow: infoWindow
+  });
+  markers.push(marker);
+
+  // Check for icon property.
+  
+  if (properties.icon) {
+    // Set up icon image.
+    marker.setIcon(properties.icon);
+  }
+
+  // Check for content property.
+  
+  google.maps.event.addListener(marker, 'click', (function(marker, content) {
+    return function() {
+      infoWindow.setContent(content);
+      infoWindow.open(map, marker);
+      map.panTo(this.getPosition());
+      map.setZoom(11); // Revert back to zoomed view when marker is clicked.
+      closeAllInfoWindows(map);
+      this.infowindow.open(map, this);
+    }
+  })(marker, content));
+}
+
+// Filter locations by category selected from dropdown menu. 
+
+filterLocations = function(category) {
+  for (var i = 0; i < locations.length; i++) {
+    properties = markers[i];
+
+    if (properties.category == category || category.length === 0) {
+      properties.setVisible(true);
+      closeAllInfoWindows(map); // Hide all info windows when selection from dropdown menu changes.
+    } else {
+      properties.setVisible(false);
+    }
+  }
+}
+
+// Close all info windows and open only one that corresponds to when marker is clicked.
+
+function closeAllInfoWindows(map) {
+  markers.forEach(function(marker) {
+    marker.infowindow.close(map, marker);
+  });
+}
+}
+
+ </script>

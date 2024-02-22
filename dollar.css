@@ -1,0 +1,78 @@
+.mn{
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    justify-content: center;
+    display: flex;
+    font-style: oblique;
+    font-weight: bolder;
+    color: brown;
+}
+.myart{
+  background-size: cover;
+  background-repeat: no-repeat;
+   }
+   
+#pic8{
+    background-image: url("https://stationers.pk/cdn/shop/products/WI00166_3982b7a4-b846-444f-84bf-a89ae8ccd71d.jpg?v=1673350025&width=600");
+    height: 180px;
+    width: 100%;
+    background-size: 100% 100%;
+  
+}
+#pic8:hover{
+    background-image: url("https://stationers.pk/cdn/shop/products/2_22c0f6c2-cc76-4888-98c1-d30edd9189bc.jpg?v=1676713070&width=260");
+    height: 180px;
+    width: 100%;
+   }
+#pic9{
+    background-image: url("https://stationers.pk/cdn/shop/products/PianoYellowBallpointPen.jpg?v=1673350196&width=400");
+    height: 180px;
+    width: 100%;
+    background-size: 100% 100%;
+  
+}
+#pic9:hover{
+    background-image: url("https://stationers.pk/cdn/shop/products/gggff.jpg?v=1674552460&width=1200");
+    height: 180px;
+    width: 100%;
+   }
+   .container{
+    height: 300px;
+    width: 500px;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    grid-template-columns: 120px 120px 120px;
+    grid-template-rows: 120px 120px 120px;
+    gap: 10px;
+    flex-direction: row;
+
+  }
+
+.box{
+  
+  height: 180px;
+  width: 100%;
+  border: 10px solid white;
+  
+  display: flex;
+  
+}
+
+
+#box1{
+  background-image:url("https://stationers.pk/cdn/shop/files/piano_250x_65d6c750-b0a6-46ab-ad03-4dda917c476a.png?v=1673503320");
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 180px;
+  width: 800%;
+}
+
+
+
+   
+  
+  
+  
